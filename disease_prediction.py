@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 # Load dataset
+# https://drive.google.com/uc?id=1S4YrSFcYQ0T2NQhl0L3hK-jP9PBmqqWS to download the dataset
 data = pd.read_csv('/content/sample_data/Final_Augmented_dataset_Diseases_and_Symptoms.csv')
 data = data.dropna()
 
